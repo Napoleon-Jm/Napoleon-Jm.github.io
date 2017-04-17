@@ -131,6 +131,21 @@
       
 
     </footer>
+    <div id="container"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+    var gitment = new Gitment({
+      id: '', // 可选。默认为 location.href
+        owner: 'Napoleon_Jm',
+	  repo: 'comment-repo',
+	    oauth: {
+	        client_id: '554bb9547be60e2542d5',
+		    client_secret: 'f9c1fbd094715cee48dda6a857d7bb01f32ca379',
+		      },
+		      })
+		      gitment.render('container')
+		      </script>
   </div>
   
     
@@ -141,21 +156,6 @@
 
 
 
-	  <div id="container"></div>
-	  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-	  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-	  <script>
-	  var gitment = new Gitment({
-	    id: '', // 可选。默认为 location.href
-	      owner: 'Napoleon-Jm',
-	        repo: 'comment-repo',
-		  oauth: {
-		      client_id: '554bb9547be60e2542d5',
-		          client_secret: 'f9c1fbd094715cee48dda6a857d7bb01f32ca379',
-			    },
-			    })
-			    gitment.render('container')
-	  </script>
         </div>
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           
